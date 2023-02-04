@@ -1,14 +1,14 @@
 import './App.css'
-import { Greeting } from './components/Greeting'
+import ReactMarkdown from 'react-markdown'
 
 function App() {
   const name = "Alex"
 
   return (
     <div className="App">
-      <div>
-        <Greeting  name={name}/>
-      </div>     
+      <ReactMarkdown>
+        Hello **ReactTS** !!!
+      </ReactMarkdown>        
     </div>
   )
 }
